@@ -7,7 +7,7 @@
     "ios": "react-native run-ios",
     "format": "prettier --write ./src",
     "checkFormat": "prettier --check ./src",
-    "lint": "eslint --ext .tsx --ext .ts src/",
+    "lint": "eslint --fix --ext .tsx --fix --ext .ts src/",
     "start": "react-native start",
     "test": "jest"
   },
