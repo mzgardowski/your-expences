@@ -6,17 +6,15 @@
  */
 
 import React from 'react';
-import { SafeAreaView, ScrollView } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 
-import MainPage from './src';
+import BottomTabs from './src/navigation/TabNavigation';
 
 function App(): JSX.Element {
   return (
-    <SafeAreaView>
-      <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <MainPage />
-      </ScrollView>
-    </SafeAreaView>
+    <NavigationContainer>
+      <BottomTabs />
+    </NavigationContainer>
   );
 }
 
